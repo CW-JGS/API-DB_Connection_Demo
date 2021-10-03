@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/API.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/API.csproj",
+        "packagesPath": "/Users/tim/.nuget/packages/",
+        "outputPath": "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
