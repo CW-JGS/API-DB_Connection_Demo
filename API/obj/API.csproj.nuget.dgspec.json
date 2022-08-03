@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/API.csproj": {}
+    "c:\\Users\\jacks\\projects\\personal\\API-DB_Connection_Demo\\API\\API.csproj": {}
   },
   "projects": {
-    "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/API.csproj": {
+    "c:\\Users\\jacks\\projects\\personal\\API-DB_Connection_Demo\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/API.csproj",
+        "projectUniqueName": "c:\\Users\\jacks\\projects\\personal\\API-DB_Connection_Demo\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/API.csproj",
-        "packagesPath": "/Users/tim/.nuget/packages/",
-        "outputPath": "/Volumes/Magnus Servio/OneDrive - Swinburne University/repos/API_DB_Connection_Demo/API/obj/",
+        "projectPath": "c:\\Users\\jacks\\projects\\personal\\API-DB_Connection_Demo\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\jacks\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\jacks\\projects\\personal\\API-DB_Connection_Demo\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tim/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jacks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,12 +37,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -65,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
