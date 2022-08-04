@@ -4,7 +4,7 @@ namespace API.middleware.DB
 {
     public abstract class ConnectionStringHandler
     {
-        public string GetConnectionString()
+        public static string GetConnectionString()
         {
             try
             {
